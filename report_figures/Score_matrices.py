@@ -9,10 +9,10 @@ import numpy as np
 import pickle
 
 fileDict = {
-"double_4c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_flyCells_multiTask_weighted_doubleRNAi_6fold/",
-"double_2c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_flyCells_multiTask_weighted_doubleRNAi_OnlyNuclei_6fold/",
-"single_4c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_flyCells_multiTask_weighted_singleRNAi_6fold/",
-"single_2c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_flyCells_multiTask_weighted_singleRNAi_OnlyNuclei_6fold/",
+"double_4c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_exp1/resnet18_flyCells_multiTask_weighted_doubleRNAi_6fold/",
+"double_2c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_exp1/resnet18_flyCells_multiTask_weighted_doubleRNAi_OnlyNuclei_6fold/",
+"single_4c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_exp1/resnet18_flyCells_multiTask_weighted_singleRNAi_6fold/",
+"single_2c": "/home/cougarnet.uh.edu/pyuan2/Projects2019/keras-resnet/results/resnet18_exp1/resnet18_flyCells_multiTask_weighted_singleRNAi_OnlyNuclei_6fold/",
 }
 
 sqrMat = {}
