@@ -20,7 +20,9 @@ def plot_no_border(fileName, image):
     ax.imshow(image)
     # ax.imshow(image, aspect='auto')
     # fig.savefig(fileName)
-    fig.savefig(fileName, dpi=1000)
+    # fig.savefig(fileName, dpi=1000)
+    fig.savefig(fileName.replace("png", "svg"), dpi=300)
+    plt.close(fig)
 
 
 

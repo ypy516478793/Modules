@@ -48,3 +48,6 @@ if __name__ == '__main__':
 
     logger = get_logger(logpath=os.path.join(args.save, 'logs'), filepath=os.path.abspath(__file__))
     logger.info(args)
+
+    # logging.info("Parameters:" + ", ".join(
+    #     ["--{:s}={:s}".format(key, str(value)) for (key, value) in FLAGS.flag_values_dict().items()]))
